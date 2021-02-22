@@ -1,0 +1,55 @@
+@media (min-width: 768px) {
+    .container-small {
+        width: 700px;
+    }
+}
+@media (min-width: 992px) {
+    .container-small {
+        width: 700px;
+    }
+}
+@media (min-width: 1200px) {
+    .container-small {
+        width: 700px;
+    }
+}
+body { 
+background: url(../image/FullSizeRender.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.loggo {
+    margin-top:7px;
+    margin-bottom:7px;
+}
+.marketing{
+    background-color: #2cb03c;
+    padding-bottom: 15px;
+}
+.nav {
+    background-color:#007f10;
+}
+.nav .active {
+    background-color:#2cb03c;
+}
+.nav a {
+    font-size: 1.3em;
+    color: white;
+}
+
+.nav > li > a:focus {
+    background-color:inherit;
+}
+.nav > li > a:hover {
+    background-color:#00640c;
+}
+.imageText {
+    display: inline-block;
+    margin-top: 10px;
+}
+.imageFrame {
+	padding:10px;
+	background-color:white;
+}
